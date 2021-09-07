@@ -1,0 +1,26 @@
+html    
+    head 
+        title= AparatoAire
+        script(src="air.js")           
+    body
+        h1 #{temperature}
+        form(action="/acciones/subirTemperatura" method="GET" id=formData name="myForm")
+            input(type="submit" value="Subir temperatura" onclick="#{subirTemperatura}")
+
+        form(action="/acciones/bajarTemperatura" method="GET" id=formData name="myForm")
+            input(type="submit" value="Bajar temperatura" onclick="#{bajarTemperatura}")
+
+        
+
+        
+
+        
+    
+
+
+    
+            
+
+            
+
+
